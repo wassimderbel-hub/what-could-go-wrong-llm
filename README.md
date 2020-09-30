@@ -34,23 +34,23 @@ While autonomous vehicles have the potential to greatly improve our daily lives,
 Edit the `prompts.csv` and `responses.csv` to add new cards to the decks. Follow instrcutions for adding new cards here: https://playingcards.io/docs/custom-decks
 
 ## Suggested Citation
-@inproceedings{10.1145/3409251.3411734,
-author = {Martelaro, Nikolas and Ju, Wendy},
-title = {What Could Go Wrong? Exploring the Downsides of Autonomous Vehicles},
-year = {2020},
-isbn = {9781450380669},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3409251.3411734},
-doi = {10.1145/3409251.3411734},
-abstract = { While autonomous vehicles have the potential to greatly improve our daily lives, there are also challenges and potential downsides to these systems. In this workshop, we intend to foster discussions about the potential negative aspects of autonomous cars in hopes of surfacing challenges that should be considered during the design process rather than after deployment. We will spur these conversations through a review of participant position statements and through group discussion facilitated by a card game called “What Could Go Wrong?” Our goal is to consider the autonomous vehicle’s benefits—improving safety, increasing mobility, reducing emissions—against potential drawbacks. By identifying potential harms and downsides, the workshop attendees, and the AutoUI community more broadly can design well-considered solutions.},
-booktitle = {12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications},
-pages = {99–101},
-numpages = {3},
-keywords = {game with a purpose, failure modes, autonomous vehicles},
-location = {Virtual Event, DC, USA},
-series = {AutomotiveUI '20}
-}
+`@inproceedings{10.1145/3409251.3411734,\
+author = {Martelaro, Nikolas and Ju, Wendy},\ 
+title = {What Could Go Wrong? Exploring the Downsides of Autonomous Vehicles},\
+year = {2020},\
+isbn = {9781450380669},\
+publisher = {Association for Computing Machinery},\ 
+address = {New York, NY, USA},\
+url = {https://doi.org/10.1145/3409251.3411734},\
+doi = {10.1145/3409251.3411734},\
+abstract = { While autonomous vehicles have the potential to greatly improve our daily lives, there are also challenges and potential downsides to these systems. In this workshop, we intend to foster discussions about the potential negative aspects of autonomous cars in hopes of surfacing challenges that should be considered during the design process rather than after deployment. We will spur these conversations through a review of participant position statements and through group discussion facilitated by a card game called “What Could Go Wrong?” Our goal is to consider the autonomous vehicle’s benefits—improving safety, increasing mobility, reducing emissions—against potential drawbacks. By identifying potential harms and downsides, the workshop attendees, and the AutoUI community more broadly can design well-considered solutions.},\ 
+booktitle = {12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications},\ 
+pages = {99–101},\
+numpages = {3},\
+keywords = {game with a purpose, failure modes, autonomous vehicles},\
+location = {Virtual Event, DC, USA},\
+series = {AutomotiveUI '20}\
+}`
 
 Nikolas Martelaro and Wendy Ju. 2020. What Could Go Wrong? Exploring the Downsides of Autonomous Vehicles. In *12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications* (*AutomotiveUI '20*). Association for Computing Machinery, New York, NY, USA, 99–101. DOI:https://doi.org/10.1145/3409251.3411734
 
