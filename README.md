@@ -1,6 +1,6 @@
-# What Could Go Wrong - AV Edition
+# What Could Go Wrong - AI Edition
 
-This repository hosts the files used for the What Could Go Wrong? digital card game. Nikolas Martelaro and Wendy Ju developed and presented the game at a Workshop at AutoUI 2020.
+This repository hosts the files used for the What Could Go Wrong? digital card game. Nikolas Martelaro and Wendy Ju developed and presented the game at a Workshop at AutoUI 2020. The game was then modified by Nik and his team at CMU to be more generalized for AI-based systems.
 
 The digital card game can be loaded into and played on PlayingCards.io. Custom cards can be added using the `csv` files for `prompts` and `responses`
 
@@ -60,6 +60,14 @@ numpages = {3},
 keywords = {game with a purpose, failure modes, autonomous vehicles},  
 location = {Virtual Event, DC, USA},  
 series = {AutomotiveUI '20}. 
+}
+
+For some motivation on why we want to develop new hazard analysis games.
+@article{martelaro2022exploring,
+  title={Exploring Opportunities in Usable Hazard Analysis Processes for AI Engineering},
+  author={Martelaro, Nikolas and Smith, Carol J and Zilovic, Tamara},
+  journal={arXiv preprint arXiv:2203.15628},
+  year={2022}
 }
 
 
