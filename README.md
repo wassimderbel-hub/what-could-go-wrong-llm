@@ -44,7 +44,7 @@ Edit the `prompts.csv` and `responses.csv` to add new cards to the decks. Follow
 Nikolas Martelaro and Wendy Ju. 2020. What Could Go Wrong? Exploring the Downsides of Autonomous Vehicles. In *12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications* (*AutomotiveUI '20*). Association for Computing Machinery, New York, NY, USA, 99–101. DOI:https://doi.org/10.1145/3409251.3411734
 
 ### Bibtex
-@inproceedings{10.1145/3409251.3411734,  
+```@inproceedings{10.1145/3409251.3411734,  
 author = {Martelaro, Nikolas and Ju, Wendy},  
 title = {What Could Go Wrong? Exploring the Downsides of Autonomous Vehicles},  
 year = {2020},  
@@ -61,13 +61,16 @@ keywords = {game with a purpose, failure modes, autonomous vehicles},
 location = {Virtual Event, DC, USA},  
 series = {AutomotiveUI '20}. 
 }
+```
 
 For some motivation on why we want to develop new hazard analysis games.
-@article{martelaro2022exploring,
+
+```@article{martelaro2022exploring,
   title={Exploring Opportunities in Usable Hazard Analysis Processes for AI Engineering},
   author={Martelaro, Nikolas and Smith, Carol J and Zilovic, Tamara},
   journal={arXiv preprint arXiv:2203.15628},
   year={2022}
 }
+```
 
 
