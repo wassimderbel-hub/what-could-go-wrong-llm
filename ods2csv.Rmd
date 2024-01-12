@@ -1,0 +1,62 @@
+---
+title: "ods2csv"
+author: "Matthijs den Besten"
+date: "2023-12-11"
+output: html_document
+---
+
+
+Read file with game variants.
+```{r}
+require(readODS)
+
+src <- "WhatCouldGoWrongCards.ods";
+collection <- list_ods_sheets(src);
+
+contents <- lapply(collection, function(sheet) {
+  return(read_ods(src, sheet));
+});
+
+names(contents) <- collection;
+
+```
+
+Transform into card decks that can be imported into PlayingCards.io
+
+```{r}
+
+transform.deck <- function(tab, type = "prompt") {
+  # assign an ID to each card
+  id <- paste0(ifelse(type != "prompt", "R", "P"), 1:nrow(tab));
+  
+  # assume that text for prompts is specified in the right-most column
+  # assume that additional category label is specified in the left-most column
+  m <- ncol(tab);
+  
+  df <- data.frame(val = tab[,m], NUMBERS = id);
+  if(m > 1) {
+    df[, "LABEL"] <- tab[,1];
+  }
+  
+  names(df)[1] <- toupper(type);
+  
+  return(df);
+}
+
+
+```
+
+Write to files to be imported into PlayingCards.io.
+
+```{r}
+file.suffix <- "csv";
+for(sheet in collection) {
+  write.csv(transform.deck(contents[[sheet]],
+                           type = ifelse(grepl("prompt", sheet),
+                                         "prompt", "response")),
+            file = paste(sheet, file.suffix, sep="."),
+            row.names = FALSE);
+}
+
+```
+
