@@ -40,10 +40,10 @@ While autonomous vehicles have the potential to significantly enhance our daily 
 - **Dual Play**: During this round, players are permitted to select two white cards from their hand instead of the standard single card. This challenges players to think strategically about card combinations that will resonate with the prompt and with each other.
 - **Double Points Opportunity**: If the Card Czar selects a player’s combination as the most compelling, that player earns double points for the round. This raises the stakes and encourages players to engage more deeply with both the prompt and their cards.
   
-7. The Card Czar reveals all submitted white cards, reading each aloud. They then select the card(s) that they find most fitting or humorous in relation to the black prompt card. +1 point (+2 in case of both the two submitted cards are chosen in wildcard round) goes to the player whose card was chosen.
-8. The chosen white card sparks a group discussion, allowing players to explore further implications or humorous takes on the scenario.
-9. The group engages in an extended discussion on what else could go wrong based on the chosen card. Participants can award +1 point to anyone who contributes a compelling point during the discussion.
-10. After the discussion concludes, a new Card Czar is chosen via the spinner, and the "Deal" button is pressed. This ensures each player draws up to 5 cards again, preparing for the next round.
+6. The Card Czar reveals all submitted white cards, reading each aloud. They then select the card(s) that they find most fitting or humorous in relation to the black prompt card. +1 point (+2 in case of both the two submitted cards are chosen in wildcard round) goes to the player whose card was chosen.
+7. The chosen white card sparks a group discussion, allowing players to explore further implications or humorous takes on the scenario.
+8. The group engages in an extended discussion on what else could go wrong based on the chosen card. Participants can award +1 point to anyone who contributes a compelling point during the discussion.
+9. After the discussion concludes, a new Card Czar is chosen via the spinner, and the "Deal" button is pressed. This ensures each player draws up to 5 cards again, preparing for the next round.
 
 
 ## During the game
